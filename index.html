@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huvesh Edits | Premium Video Editing</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<div id="videoModal" class="video-modal">
+
+    <span class="close-video">&times;</span>
+
+    <video id="portfolioVideo" controls>
+
+        <source src="assets/demo.mp4" type="video/mp4">
+
+    </video>
+
+</div>
+<body>
+  <div id="loader">
+    <div id="progressBar"></div>
+
+    <h1>HUVESH EDITS</h1>
+
+</div>
+<!-- Lead Popup -->
+<div class="popup" id="leadPopup">
+
+    <div class="popup-box">
+<div class="offer-badge">
+🔥 LIMITED OFFER
+</div>
+        <h1>🎁 Best Offer</h1>
+
+        <p>
+            Special discount paane ke liye apna mobile number enter kare.
+        </p>
+
+<form id="leadForm" action="https://formspree.io/f/myeggrbw" method="POST">
+
+    <input
+        type="tel"
+        name="mobile"
+        placeholder="Enter Mobile Number"
+        required>
+
+    <button type="submit">
+        Continue
+    </button>
+
+</form>
+
+    </div>
+
+</div>
+
+<!-- Main Website -->
+<div id="website" style="display:none;">
+
+    <h1>Huvesh Edits</h1>
+
+    <p>Premium Mobile Videography & Video Editing</p>
+    <nav class="navbar">
+
+    <div class="logo">
+        HUVESH EDITS
+    </div>
+
+<ul class="nav-links" id="navMenu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+<a href="tel:+918010863236" class="book-btn">
+    Book Now
+</a>
+
+<div class="menu-btn" onclick="toggleMenu()">
+    ☰
+</div></nav>
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+<div class="hero-slider">
+
+    <div class="slide active"></div>
+
+    <div class="slide"></div>
+
+    <div class="slide"></div>
+
+</div>
+    <div class="hero-content">
+
+        <h1>HUVESH EDITS</h1>
+
+        <h2>Cinematic Mobile Videography</h2>
+
+        <p>
+            Premium Reels • Wedding Films • Business Ads • Professional Editing
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#portfolio" class="watch-btn">
+                ▶ Watch Portfolio
+            </a>
+
+<a href="https://wa.me/918010863236?text=Hi%20Huvesh%20Edits,%20I%20want%20to%20book%20a%20mobile%20videography%20shoot."
+   class="book-btn2"
+   target="_blank">
+   Book Now
+</a>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="portfolio" class="portfolio">
+
+    <h2>Trending Projects</h2>
+
+    <div class="row">
+
+        <div class="card">
+            <img src="assets/portfolio/reel1.jpg" alt="">
+            <div class="overlay">
+                <span>▶</span>
+                <h3>Wedding Reel</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/portfolio/reel2.jpg" alt="">
+            <div class="overlay">
+                <span>▶</span>
+                <h3>Cinematic Shoot</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/portfolio/reel3.jpg" alt="">
+            <div class="overlay">
+                <span>▶</span>
+                <h3>Instagram Reel</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section id="services" class="services">
+
+<h2>Our Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>🎬 Mobile Videography</h3>
+<p>Professional cinematic mobile video shoots for all occasions.</p>
+</div>
+
+<div class="service-card">
+<h3>✂️ Video Editing</h3>
+<p>Premium editing for Reels, YouTube, Shorts and promotional videos.</p>
+</div>
+
+<div class="service-card">
+<h3>💍 Wedding Films</h3>
+<p>Creative wedding highlights and cinematic memories.</p>
+</div>
+
+<div class="service-card">
+<h3>📱 Instagram Reels</h3>
+<p>High-quality viral reels for creators and businesses.</p>
+</div>
+
+<div class="service-card">
+<h3>🏢 Business Ads</h3>
+<p>Promotional videos for shops, brands and local businesses.</p>
+</div>
+
+<div class="service-card">
+<h3>🎥 Event Coverage</h3>
+<p>Birthdays, parties, corporate events and special occasions.</p>
+</div>
+
+</div>
+
+</section>
+<section id="pricing" class="pricing">
+
+    <h2>Our Packages</h2>
+
+    <div class="price-grid">
+
+        <div class="price-card">
+            <h3>Basic</h3>
+            <h1>₹999</h1>
+            <p>1 Reel Edit</p>
+            <p>HD Export</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="price-card premium">
+            <h3>Premium</h3>
+            <h1>₹2999</h1>
+            <p>5 Reels</p>
+            <p>Cinematic Color Grading</p>
+            <p>Fast Delivery</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="price-card">
+            <h3>Business</h3>
+            <h1>Custom</h1>
+            <p>Business Ads</p>
+            <p>Professional Shoot</p>
+            <button>Contact</button>
+        </div>
+
+    </div>
+
+</section>
+<section id="reviews" class="reviews">
+
+    <h2>What Our Clients Say</h2>
+
+    <div class="review-slider">
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Amazing cinematic edit. Highly recommended!"</p>
+            <span>- Rahul</span>
+        </div>
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Best mobile videography experience."</p>
+            <span>- Priya</span>
+        </div>
+
+        <div class="review-card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>"Professional editing with fast delivery."</p>
+            <span>- Aman</span>
+        </div>
+
+    </div>
+
+</section>
+<section id="gallery" class="gallery">
+
+    <h2>Featured Work</h2>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">Wedding</div>
+        <div class="gallery-item">Pre Wedding</div>
+        <div class="gallery-item">Birthday</div>
+        <div class="gallery-item">Business Ads</div>
+        <div class="gallery-item">Instagram Reels</div>
+        <div class="gallery-item">Travel</div>
+        <div class="gallery-item">Events</div>
+        <div class="gallery-item">Product Shoot</div>
+
+    </div>
+
+</section>
+<section id="faq" class="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-box">
+        <h3>How much do you charge?</h3>
+        <p>Pricing depends on the project. Contact us for a custom quote.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>How many days does editing take?</h3>
+        <p>Usually 2–5 days depending on the project.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>Do you shoot with mobile?</h3>
+        <p>Yes. We create professional cinematic videos using flagship smartphones.</p>
+    </div>
+
+    <div class="faq-box">
+        <h3>How can I book?</h3>
+        <p>Call or WhatsApp us directly from the website.</p>
+    </div>
+
+</section>
+<section class="stats">
+
+    <div class="stat-box">
+        <h1>500+</h1>
+        <p>Videos Edited</p>
+    </div>
+
+    <div class="stat-box">
+        <h1>200+</h1>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat-box">
+        <h1>5+</h1>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat-box">
+        <h1>100%</h1>
+        <p>Client Satisfaction</p>
+    </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <h2>Let's Work Together</h2>
+
+<p>
+📍 Bhandara, Maharashtra 441904, India
+<br><br>
+Call or WhatsApp us for bookings.
+</p>
+<form action="https://formspree.io/f/myeggrbw" method="POST" class="booking-form">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="tel" name="mobile" placeholder="Mobile Number" required>
+
+<select name="service" required>
+<option value="">Select Service</option>
+<option>Wedding Editing</option>
+<option>Instagram Reels</option>
+<option>YouTube Video</option>
+<option>Business Advertisement</option>
+<option>Other</option>
+</select>
+
+<textarea name="message" placeholder="Tell us about your project"></textarea>
+
+<button type="submit">🚀 Book Now</button>
+
+</form>
+<a href="tel:+918010863236" class="contact-btn">
+📞 Call Now
+</a>
+
+<a href="https://wa.me/918010863236" target="_blank" class="whatsapp-btn">
+💬 WhatsApp
+</a>
+    </a> 
+
+</section>
+
+<footer>
+
+    © 2026 Huvesh Edits | All Rights Reserved
+
+</footer>
+<div class="designer-credit">
+    Designed by Ankur Khobragade
+</div>
+</div>
+</div>
+<a href="https://wa.me/918010863236"
+class="floating-whatsapp">
+
+💬
+
+</a>
+</body>
+
+<script src="script.js"></script>
+
+</html>
